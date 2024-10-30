@@ -1,9 +1,116 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.3">
   <diagram name="Page-1" id="xCujGumcynDEc8iT2lpR">
-    <mxGraphModel>
+    <mxGraphModel dx="2218" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-2" value="controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-3" target="jCHETlCeGme0Hh_5NuBO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-3" value="inventario -&lt;div&gt;servicio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-4" target="jCHETlCeGme0Hh_5NuBO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-4" value="persistencia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-5" value="entitity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="800" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-2" target="jCHETlCeGme0Hh_5NuBO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="210" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-4" target="jCHETlCeGme0Hh_5NuBO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-11" value="recepcionar petición" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="475" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-12" value="codigo de lógica de negocio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="585" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-13" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="705" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-14" target="jCHETlCeGme0Hh_5NuBO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-14" value="Funcionalidades de la app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-15" target="jCHETlCeGme0Hh_5NuBO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-15" value="1. mantener el inventario: ingresar un producto nuevo con precios de compra y venta" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="420" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-17" target="jCHETlCeGme0Hh_5NuBO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-17" value="2. consultar productos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-19" target="jCHETlCeGme0Hh_5NuBO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-19" value="3. carrito de compras:&lt;div&gt;entregar el cálculo final del precio de la lista de productos escaneados&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="600" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-24" value="4. guardar histórico de ventas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-26" target="jCHETlCeGme0Hh_5NuBO-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="890" as="sourcePoint" />
+            <mxPoint x="890" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="jCHETlCeGme0Hh_5NuBO-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="890" as="sourcePoint" />
+            <mxPoint x="910" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-26" value="5. Cambiar precios de productos y guardar histórico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-28" target="jCHETlCeGme0Hh_5NuBO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-28" value="Lista de tareas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="612.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-30" target="jCHETlCeGme0Hh_5NuBO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-30" value="Crear base de datos: nombre, tablas a tener, campos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCHETlCeGme0Hh_5NuBO-31" target="jCHETlCeGme0Hh_5NuBO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-31" value="Definir diagramas de entidades de DB: nombre, tablas a tener, campos, relaciones entre si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="705" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jCHETlCeGme0Hh_5NuBO-34" value="hacer funcionalidad de carrito" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="900" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
